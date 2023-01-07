@@ -1,0 +1,82 @@
+* {
+  padding: auto;
+  margin: auto;
+  background-color: #33A6B8;
+  color: #0B346E;
+}
+
+#header {
+  background: #33A6B8;
+}
+#header ul {
+  margin-top: 100px;
+}
+#header ul li {
+  font-size: 2rem;
+}
+#header ul li :hover {
+  background: #00A8CD;
+  border-radius: 10px;
+  border-bottom: 0px;
+}
+#header ul li a {
+  color: #0B346E;
+}
+
+#content {
+  background: #81C7D4;
+}
+#content .left {
+  position: absolute;
+  top: -450px;
+}
+#content .left .photo {
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #1E88A8;
+  position: absolute;
+}
+#content .left .circle {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  height: 300px;
+  width: 300px;
+  border: 5px dashed #2B5F75;
+  border-radius: 50%;
+  background: transparent;
+}
+#content .left img {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#content .left .contact {
+  position: relative;
+  top: 360px;
+  left: 50px;
+  font-size: 1.5rem;
+}
+#content .left .contact p {
+  font-size: 2rem;
+  padding-left: 60px;
+}
+#content .right {
+  padding-top: 50px;
+  font-size: 2rem;
+  height: 1000px;
+}
+#content .right .topic {
+  font-size: 2rem;
+}
+
+#footer {
+  height: 100px;
+}/*# sourceMappingURL=website.css.map */
